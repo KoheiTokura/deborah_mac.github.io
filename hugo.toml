@@ -6,7 +6,24 @@ theme = "gokarna"
 enableRobotsTXT = true
 
 [params]
-  customHeadHTML = '<link rel="stylesheet" href="/css/custom.css">'
+  customHeadHTML = """
+<style>
+main a {
+  color: #0066cc !important;
+}
+
+main a:hover {
+  color: #004999 !important;
+  text-decoration: underline !important;
+}
+
+.myname {
+  text-decoration: underline !important;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1.2px;
+}
+</style>
+"""
   description = "M2 student in theoretical physics"
   footer = "Kohei TOKURA"
   socialIcons = [
