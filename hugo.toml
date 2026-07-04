@@ -7,6 +7,7 @@ enableRobotsTXT = true
 
 [params]
   customHeadHTML = """
+  <meta name="google-site-verification" content="0jqth7ivsygihGUe8TVuYTYNdKySSzHVWYgDEJbEYeE" />
 <style>
 main a {
   color: #0066cc !important;
